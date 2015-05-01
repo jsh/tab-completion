@@ -1,0 +1,2 @@
+s="$(echo $(cat ubuntu-releases | sed 's/LTS//; s/(//' | awk '{print $4}'))"
+complete -W "$s" release
