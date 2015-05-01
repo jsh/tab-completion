@@ -6,5 +6,5 @@ Try this:
 
     $ PATH+=:$PWD
     $ source tab-completion
-    $ ubuntu-release V<tab>
-    $ ubuntu-release H<tab><tab>
+    $ release V<tab>
+    $ release H<tab><tab>
